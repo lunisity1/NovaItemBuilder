@@ -195,6 +195,7 @@ public class ItemBuilder {
             if (itemMeta.hasDisplayName()) {
                 itemMeta.setDisplayName(replacer.apply(itemMeta.getDisplayName()));
             }
+
             if (itemMeta.hasLore()) {
                 itemMeta.setLore(replacer.apply(itemMeta.getLore()));
             }
