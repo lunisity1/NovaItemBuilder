@@ -201,24 +201,6 @@ public class ItemBuilder {
         });
     }
 
-    public ItemBuilder setOwner(final String value) {
-        return transformMeta(itemMeta -> {
-
-            if (TextUtils.isEmpty(value)) {
-                return;
-            }
-
-            final OfflinePlayer offlinePlayer = Bukkit.getServer().getOfflinePlayer(value);
-            final SkullMeta skullMeta = (SkullMeta) itemMeta;
-
-            try {
-                skullMeta.setOwningPlayer(offlinePlayer);
-            } catch (final IllegalArgumentException exception) {
-                throw new IllegalArgumentException("Failed to set skull owner for item stack.");
-            }
-        });
-    }
-
     public ItemBuilder setUnbreakable(final boolean unbreakable) {
         return transformMeta(itemMeta -> itemMeta.setUnbreakable(unbreakable));
     }

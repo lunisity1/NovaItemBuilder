@@ -41,12 +41,6 @@ public enum ItemBuilderAction {
         itemBuilder.setLore(lore);
     }, "Lore"),
 
-    OWNER((bukkitConfig, string, itemBuilder) -> {
-
-        final String owner = bukkitConfig.getString(string + ".Owner");
-        itemBuilder.setOwner(owner == null ? "MHF_Question" : owner);
-    }, "Owner"),
-
     GLOW((bukkitConfig, string, itemBuilder) -> {
 
         final boolean glow = bukkitConfig.getBoolean(string + ".Glow");
