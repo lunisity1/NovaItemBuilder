@@ -148,3 +148,8 @@
 
   ## You're done! If you have any issues, message @lunisity on Discord!
   
+
+
+
+> [!IMPORTANT]
+> Credits to Words for most of the code <3
