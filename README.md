@@ -52,7 +52,7 @@
 
 ### Next, set the Display Name.
 
-![image](https://github.com/user-attachments/assets/1767e7bb-f9e1-4c7a-9dad-c0f34798aa6f)
+![image](https://github.com/user-attachments/assets/41e609c3-4a7a-4d03-bf4e-e0bc1f6a12cd)
 
 
 ### Next, set the Lore - make sure to make the lore a list!
